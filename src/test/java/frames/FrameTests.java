@@ -18,4 +18,12 @@ public class FrameTests extends BaseTests {
         editorPage.setTextArea(text2);
         Assert.assertEquals(editorPage.getTextFromEditor(), text1 + text2, "Text from text editor is incorrect");
     }
+
+    @Test
+    public void testNestedFrames(){
+        var framePage = homePage.clickFramesPage();
+        var nestedFramesPage = framePage.clickNestedLink();
+        Assert.assertEquals(nestedFramesPage.getLeftFrameText(), "LEFT", "Text in the left frame doesn't match");
+        Assert.assertEquals(nestedFramesPage.getBottomFrameText(), "BOTTOM", "Text in the bottom frame doesn't match");
+    }
 }
