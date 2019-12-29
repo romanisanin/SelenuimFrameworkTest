@@ -4,7 +4,7 @@ import base.BaseTests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class naigationTests extends BaseTests {
+public class navigationTests extends BaseTests {
 
     @Test
     public void testNavigator(){
