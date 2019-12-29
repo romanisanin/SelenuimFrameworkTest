@@ -3,10 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="70c22d78-8219-4f4d-8b60-457d4bf59576" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Keys/KeysTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Keys/KeysTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/navigation/naigationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/navigation/navigationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/EventReporter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/EventReporter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/navigation/naigationTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +61,25 @@
       <recent name="C:\Users\roman\IdeaProjects\testautomationu\webdriver_java\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.navigationTests.switchToTab">
+  <component name="RunManager" selected="TestNG.CookiesTests.deleteCookieAndVerify">
+    <configuration name="CookiesTests.deleteCookieAndVerify" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HerokuApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CookiesTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CookiesTests" />
+      <option name="MAIN_CLASS_NAME" value="CookiesTests.CookiesTests" />
+      <option name="METHOD_NAME" value="deleteCookieAndVerify" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KeysTests.testBackSpace" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HerokuApp" />
       <extension name="coverage">
@@ -132,31 +152,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="navigationTests.testNavigator" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HerokuApp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="navigation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="navigation" />
-      <option name="MAIN_CLASS_NAME" value="navigation.navigationTests" />
-      <option name="METHOD_NAME" value="testNavigator" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CookiesTests.deleteCookieAndVerify" />
+        <item itemvalue="TestNG.KeysTests.testBackSpace" />
         <item itemvalue="TestNG.navigationTests.switchToTab" />
         <item itemvalue="TestNG.LoginTests.testSuccessfulLogin" />
-        <item itemvalue="TestNG.KeysTests.testBackSpace" />
         <item itemvalue="TestNG.navigationTests.rigthclickPageOpening" />
-        <item itemvalue="TestNG.navigationTests.testNavigator" />
       </list>
     </recent_temporary>
   </component>
@@ -190,46 +192,50 @@
       <screen x="1920" y="0" width="1600" height="880" />
     </state>
     <state x="2526" y="141" key="#com.intellij.ide.util.MemberChooser/1920.0.1600.880/0.0.1920.1160@1920.0.1600.880" timestamp="1577587965408" />
-    <state width="1558" height="149" key="GridCell.Tab.0.bottom" timestamp="1577588517598">
+    <state width="404" height="438" key="DebuggerActiveHint" timestamp="1577591552217">
+      <screen x="1920" y="0" width="1600" height="880" />
+    </state>
+    <state width="404" height="438" key="DebuggerActiveHint/1920.0.1600.880/0.0.1920.1160@1920.0.1600.880" timestamp="1577591552217" />
+    <state width="1558" height="278" key="GridCell.Tab.0.bottom" timestamp="1577592125347">
       <screen x="1920" y="0" width="1600" height="880" />
     </state>
     <state width="1877" height="238" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577503980186" />
-    <state width="1558" height="149" key="GridCell.Tab.0.bottom/1920.0.1600.880/0.0.1920.1160@1920.0.1600.880" timestamp="1577588517598" />
-    <state width="1558" height="149" key="GridCell.Tab.0.center" timestamp="1577588517598">
+    <state width="1558" height="278" key="GridCell.Tab.0.bottom/1920.0.1600.880/0.0.1920.1160@1920.0.1600.880" timestamp="1577592125347" />
+    <state width="1558" height="278" key="GridCell.Tab.0.center" timestamp="1577592125347">
       <screen x="1920" y="0" width="1600" height="880" />
     </state>
     <state width="1877" height="238" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577503980185" />
-    <state width="1558" height="149" key="GridCell.Tab.0.center/1920.0.1600.880/0.0.1920.1160@1920.0.1600.880" timestamp="1577588517598" />
-    <state width="1558" height="149" key="GridCell.Tab.0.left" timestamp="1577588517598">
+    <state width="1558" height="278" key="GridCell.Tab.0.center/1920.0.1600.880/0.0.1920.1160@1920.0.1600.880" timestamp="1577592125347" />
+    <state width="1558" height="278" key="GridCell.Tab.0.left" timestamp="1577592125347">
       <screen x="1920" y="0" width="1600" height="880" />
     </state>
     <state width="1877" height="238" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577503980185" />
-    <state width="1558" height="149" key="GridCell.Tab.0.left/1920.0.1600.880/0.0.1920.1160@1920.0.1600.880" timestamp="1577588517598" />
-    <state width="1558" height="149" key="GridCell.Tab.0.right" timestamp="1577588517598">
+    <state width="1558" height="278" key="GridCell.Tab.0.left/1920.0.1600.880/0.0.1920.1160@1920.0.1600.880" timestamp="1577592125347" />
+    <state width="1558" height="278" key="GridCell.Tab.0.right" timestamp="1577592125347">
       <screen x="1920" y="0" width="1600" height="880" />
     </state>
     <state width="1877" height="238" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577503980185" />
-    <state width="1558" height="149" key="GridCell.Tab.0.right/1920.0.1600.880/0.0.1920.1160@1920.0.1600.880" timestamp="1577588517598" />
-    <state width="1558" height="238" key="GridCell.Tab.1.bottom" timestamp="1577586907735">
+    <state width="1558" height="278" key="GridCell.Tab.0.right/1920.0.1600.880/0.0.1920.1160@1920.0.1600.880" timestamp="1577592125347" />
+    <state width="1558" height="238" key="GridCell.Tab.1.bottom" timestamp="1577591874155">
       <screen x="1920" y="0" width="1600" height="880" />
     </state>
     <state width="1877" height="238" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577503931830" />
-    <state width="1558" height="238" key="GridCell.Tab.1.bottom/1920.0.1600.880/0.0.1920.1160@1920.0.1600.880" timestamp="1577586907735" />
-    <state width="1558" height="238" key="GridCell.Tab.1.center" timestamp="1577586907735">
+    <state width="1558" height="238" key="GridCell.Tab.1.bottom/1920.0.1600.880/0.0.1920.1160@1920.0.1600.880" timestamp="1577591874155" />
+    <state width="1558" height="238" key="GridCell.Tab.1.center" timestamp="1577591874155">
       <screen x="1920" y="0" width="1600" height="880" />
     </state>
     <state width="1877" height="238" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577503931830" />
-    <state width="1558" height="238" key="GridCell.Tab.1.center/1920.0.1600.880/0.0.1920.1160@1920.0.1600.880" timestamp="1577586907735" />
-    <state width="1558" height="238" key="GridCell.Tab.1.left" timestamp="1577586907735">
+    <state width="1558" height="238" key="GridCell.Tab.1.center/1920.0.1600.880/0.0.1920.1160@1920.0.1600.880" timestamp="1577591874155" />
+    <state width="1558" height="238" key="GridCell.Tab.1.left" timestamp="1577591874155">
       <screen x="1920" y="0" width="1600" height="880" />
     </state>
     <state width="1877" height="238" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577503931830" />
-    <state width="1558" height="238" key="GridCell.Tab.1.left/1920.0.1600.880/0.0.1920.1160@1920.0.1600.880" timestamp="1577586907735" />
-    <state width="1558" height="238" key="GridCell.Tab.1.right" timestamp="1577586907735">
+    <state width="1558" height="238" key="GridCell.Tab.1.left/1920.0.1600.880/0.0.1920.1160@1920.0.1600.880" timestamp="1577591874155" />
+    <state width="1558" height="238" key="GridCell.Tab.1.right" timestamp="1577591874155">
       <screen x="1920" y="0" width="1600" height="880" />
     </state>
     <state width="1877" height="238" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577503931830" />
-    <state width="1558" height="238" key="GridCell.Tab.1.right/1920.0.1600.880/0.0.1920.1160@1920.0.1600.880" timestamp="1577586907735" />
+    <state width="1558" height="238" key="GridCell.Tab.1.right/1920.0.1600.880/0.0.1920.1160@1920.0.1600.880" timestamp="1577591874155" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1577499873198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -252,6 +258,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/pages/DynamicLoadingPage.java</url>
           <line>29</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pages/CookieManager.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/pages/InfiniteScrollPage.java</url>

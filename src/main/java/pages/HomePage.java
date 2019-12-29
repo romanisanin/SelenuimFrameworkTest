@@ -85,8 +85,10 @@ public class HomePage {
         return new MultipleWindowsPage(driver);
     }
 
+    public CookieManager cookieOptions(){
+        return new CookieManager(driver);
+    }
     private void clickLink(String linkText){
         driver.findElement(By.linkText(linkText)).click();
     }
-
 }
